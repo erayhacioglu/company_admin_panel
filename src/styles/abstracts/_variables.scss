@@ -1,0 +1,29 @@
+/*Variables*/
+// Default tema (Light Mode)
+:root {
+    // --background: #fff;
+    --background: #F3F2F7;
+    // --color: #1A1B1F;
+    --color: #212429;
+    // --sidebarBackground:#FAFAFA;
+    --sidebarBackground:#EAE9EE;
+    --borderColor:#ddd;
+    --sidebarMenuSelectedBackground:#E5E6EB;
+    --sidebarMenuSelectedColor:#393B3D;
+    --sidebarMenuColor:#858486;
+}
+  
+// Dark Mode tema
+html.dark {
+    // --background: #1A1B1F;
+    --background: #1C1C1E;
+    // --background: #212429;
+    --color: #fff;
+    // --sidebarBackground:#292A2E;
+    --sidebarBackground:#2D2D2F;
+    --borderColor:#38444D;
+    // --sidebarMenuSelectedBackground:#2E2E30;
+    --sidebarMenuSelectedBackground:#1A1B1F;
+    --sidebarMenuSelectedColor:#F9F9FB;
+    --sidebarMenuColor:#A8A8AA;
+}

@@ -1,0 +1,50 @@
+/*Header*/
+
+.header{
+    width:100%;
+    background: var(--sidebarBackground);
+    position: sticky;
+    top: 0;
+    .header_container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 75px;
+        .header_toggle_button{
+            font-size: 25px;
+            color: var(--color);
+        }
+        .header_config{
+            // background-color: red;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 15px;
+            .header_language{
+                border-radius: 100px;
+                padding: 5px 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid var(--borderColor);
+                background: var(--background);
+                cursor: pointer;
+                .header_language_text{
+                    margin-left: 5px;
+                    font-size:1rem;
+                    font-weight: 500;
+                }
+            }
+            .header_mode{
+                padding: 8px;
+                border-radius: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid var(--borderColor);
+                background: var(--background);
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "welcome": "Hoş geldiniz",
+    "home": {
+        "title": "Ana Sayfa - Web Sitem",
+        "description": "Web sitemin ana sayfasına hoş geldiniz. Burada ilginç içerikler bulabilirsiniz."
+    },
+    "menu": {
+        "home": "Anasayfa",
+        "clinicManagement": "Firma Yönetimi",
+        "addClinic": "Firma Ekle",
+        "clinicList": "Firma Listesi"
+    },
+    "languageModal":{
+        "title":"Lütfen Dil Seçiniz",
+        "turkishButtonText":"Türkçe",
+        "englishButtonText":"İngilizce"
+    }
+}
+  

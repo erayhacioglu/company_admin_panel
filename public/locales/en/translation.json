@@ -1,0 +1,19 @@
+{
+    "welcome": "Welcome",
+    "home": {
+        "title": "Home Page - My Website",
+        "description": "Welcome to the homepage of my website. Find interesting content here."
+    },
+    "menu": {
+        "home": "Home Page",
+        "clinicManagement": "Firm Management",
+        "addClinic": "Add Company",
+        "clinicList": "Company List"
+    },
+    "languageModal":{
+        "title":"Please Select Language",
+        "turkishButtonText":"Turkish",
+        "englishButtonText":"English"
+    }
+}
+  
