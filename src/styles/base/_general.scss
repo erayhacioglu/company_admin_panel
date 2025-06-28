@@ -67,5 +67,12 @@ button{
       padding: 25px 0;
     }
   }
+
+
+  @media (max-width: 768px) {
+  .content{
+    margin-left: 0;
+  }
+}
   
   

@@ -7,6 +7,7 @@ import { useState } from "react";
 import LanguageModal from "../../components/LanguageModal";
 import { useTranslation } from "react-i18next";
 
+
 const Header = ({ sidebar, setSidebar }) => {
   const {theme,toggleTheme} = useTheme();
   const [languageModal,setLanguageModal] = useState(false);

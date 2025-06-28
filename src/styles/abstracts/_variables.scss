@@ -1,29 +1,22 @@
 /*Variables*/
 // Default tema (Light Mode)
 :root {
-    // --background: #fff;
-    --background: #F3F2F7;
-    // --color: #1A1B1F;
+    --background: #FFFFFF;
     --color: #212429;
-    // --sidebarBackground:#FAFAFA;
-    --sidebarBackground:#EAE9EE;
+    --sidebarBackground:#F9F9F9;
     --borderColor:#ddd;
-    --sidebarMenuSelectedBackground:#E5E6EB;
-    --sidebarMenuSelectedColor:#393B3D;
+    --sidebarMenuSelectedBackground:#EFEFEF;
+    --sidebarMenuSelectedColor:#0D0D0D;
     --sidebarMenuColor:#858486;
 }
   
 // Dark Mode tema
 html.dark {
-    // --background: #1A1B1F;
-    --background: #1C1C1E;
-    // --background: #212429;
+    --background: #212121;
     --color: #fff;
-    // --sidebarBackground:#292A2E;
-    --sidebarBackground:#2D2D2F;
+    --sidebarBackground:#181818;
     --borderColor:#38444D;
-    // --sidebarMenuSelectedBackground:#2E2E30;
-    --sidebarMenuSelectedBackground:#1A1B1F;
-    --sidebarMenuSelectedColor:#F9F9FB;
+    --sidebarMenuSelectedBackground:#303030;
+    --sidebarMenuSelectedColor:#FFFFFF;
     --sidebarMenuColor:#A8A8AA;
 }

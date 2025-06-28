@@ -8,6 +8,10 @@ const Layout = () => {
   const [sidebar, setSidebar] = useState(true);
   return (
     <>
+    <div className={cn({
+      sidebar_overlay:true,
+      open:sidebar
+    })} onClick={() => setSidebar(false)}/>
       <Sidebar sidebar={sidebar} setSidebar={setSidebar} />
       <main
         className={cn({
